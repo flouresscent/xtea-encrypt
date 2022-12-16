@@ -31,9 +31,10 @@ void xtea_decipher(unsigned int num_rounds, uint32_t *v, uint32_t const *k) {
 
 ## Some parameters of the implemented cipher
 
-| Encryption time    	|          45.13 Mb/s          	|
-|--------------------	|:----------------------------:	|
-| Decryption time    	|          44.59 Mb/s          	|
+|        Name        	|             Value            	|
+|:------------------:	|:----------------------------:	|
+|   Encryption time  	|          45.13 Mb/s          	|
+|   Decryption time  	|          44.59 Mb/s          	|
 | Key selection time 	| ~1.85·10<sup>24</sup> years  	|
 
 *These parameters are designed for an Intel(R) Core(TM) i5-8300R processor with a frequency of 2.30 GHz 2.30 GHz and 16GB RAM
